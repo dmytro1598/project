@@ -40,10 +40,38 @@ ul {
 *::after {
     box-sizing: border-box;
 }
-.container {
-    width: 1200px;
+
+.container_basic {
+    width: 1440px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+.list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main_nav {
+    display: flex;
+    align-items: center;
+}
+
+.list_nav {
+    display: flex;
+    margin-left: 320px;
+}
+
+.sign_up_header {
+    margin-left: 420px;
 }
