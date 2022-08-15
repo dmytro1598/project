@@ -41,12 +41,13 @@ ul {
     box-sizing: border-box;
 }
 
-.container_basic {
+.container {
     width: 1440px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 .list {
     list-style: none;
@@ -65,6 +66,7 @@ ul {
 .main_nav {
     display: flex;
     align-items: center;
+    margin-bottom: 170px;
 }
 
 .list_nav {
@@ -75,3 +77,31 @@ ul {
 .sign_up_header {
     margin-left: 420px;
 }
+
+.section-main_information {
+    width: 600px;
+}
+
+/* .section-main {
+    margin: 100px;
+} */
+
+.container_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 560px;
+    text-align: center;
+}
+
+/* .container-easy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .section-easy_information {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+} */
