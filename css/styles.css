@@ -54,7 +54,7 @@ ul {
     padding-left: 0px;
 }
 
-.item:not(:last-child) {
+.item_nav:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -94,14 +94,27 @@ ul {
     text-align: center;
 }
 
-/* .container-easy {
+.container-easy {
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
+}
 
-/* .section-easy_information {
+.container-easy:nth-child(2n) {
+    align-items: stretch;
+}
+
+.list.section-easy_information {
     display: flex;
-    flex-direction: column;
-    text-align: start;
-} */
+    justify-content: space-between;
+}
+
+.item_easy {
+    width: 385px;
+    text-align: center;
+}
+
+.img_easy {
+    height: 100px;
+}
+
