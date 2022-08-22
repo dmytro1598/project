@@ -73,9 +73,22 @@ ul {
     display: flex;
     margin-left: 320px;
 }
-.logo_text {
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
     line-height: 15px;
 }
+
+.logo_img {
+    width: 30px;
+    height: 30px;
+}
+
+/* .logo_text-service {
+    font-family: "Raleway ExtraBold";
+    font-weight: extrabold;
+} */
 
 .sign_up_header {
     margin-left: 420px;
